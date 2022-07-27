@@ -44,6 +44,10 @@
     font-family: var(--primary-font);
 }
 
+.primary-color {
+    color: var(--primary-color);
+}
+
 .navbar-text-color {
     letter-spacing: 2px;
     font-family: var(--fourth-font);
@@ -54,16 +58,25 @@
     color: var(--primary-color);
 }
 
-/* .custom-nav {
-    justify-content: end;
-}
-
-.custom-navbar {
-    display: flex;
-    align-items: center;
-} */
-
 .brand-logo {
     width: 50px;
     height: 100%;
+}
+
+/* .carousel-darken-mode {
+    background-blend-mode: darken, luminosity;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+.carosel-img-size {
+    width: 100%;
+    height: 85vh;
+    background: var(--black);
+    /* background-blend-mode: darken, luminosity;
+    background-color: rgba(0, 0, 0, 0.5); */
+
+}
+
+.carosel-title {
+    font-size: 50px;
 }
