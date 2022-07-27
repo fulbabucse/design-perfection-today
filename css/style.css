@@ -1,0 +1,69 @@
+/* ---------------------
+    GOOGLE FONTS
+------------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* -----------------------
+    CSS CUSTOM PROPERTY
+-------------------------- */
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --gray: #7E8299;
+    --gray-dark: #3F4254;
+    --success: #50CD89;
+    --warning: #FF490F;
+    --danger: #EF305E;
+    --white: #ffffff;
+    --black: #000000;
+    --navyblue: #020E29;
+    --primary-color: #E51E21;
+
+    /* FONT FAMILY */
+
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    --third-font: "Lato", sans-serif;
+    --fourth-font: 'Bebas Neue', cursive;
+}
+
+/* ---------------------
+    COMMON STYLES
+------------------------ */
+
+* {
+    font-family: var(--primary-font);
+}
+
+.navbar-text-color {
+    letter-spacing: 2px;
+    font-family: var(--fourth-font);
+    color: var(--primary-color);
+}
+
+.navbar-text-color:hover {
+    color: var(--primary-color);
+}
+
+/* .custom-nav {
+    justify-content: end;
+}
+
+.custom-navbar {
+    display: flex;
+    align-items: center;
+} */
+
+.brand-logo {
+    width: 50px;
+    height: 100%;
+}
