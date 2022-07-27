@@ -93,3 +93,25 @@
     width: 100px;
     height: 100%;
 }
+
+.footer-bg-color {
+    background-color: #161616;
+}
+
+.icons-bg-color {
+    transition: all .3s ease .1s;
+    background-color: #242424;
+}
+
+.icons-bg-color:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+.footer-title {
+    color: var(--primary-color);
+}
+
+.footer-title:hover {
+    color: var(--primary-color);
+}
