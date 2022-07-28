@@ -159,6 +159,10 @@
     .register-button {
         display: none;
     }
+
+    .course-img-size {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
