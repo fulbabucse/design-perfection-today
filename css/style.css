@@ -11,21 +11,12 @@
 
 :root {
     --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --gray: #7E8299;
     --gray-dark: #3F4254;
     --success: #50CD89;
     --warning: #FF490F;
     --danger: #EF305E;
     --white: #ffffff;
     --black: #000000;
-    --navyblue: #020E29;
     --primary-color: #E51E21;
 
     /* FONT FAMILY */
@@ -44,6 +35,7 @@
     font-family: var(--primary-font);
 }
 
+/* PRIMARY BUTTON, USE FOR ALL SECTION BUTTON */
 .primary-btn {
     border: none;
     color: var(--white);
@@ -57,14 +49,17 @@
     background-color: rgba(229, 30, 33, 1);
 }
 
+/* PRIMARY COLOR, USE FOR WEBSITE DEFAULT COLOR */
 .primary-color {
     color: var(--primary-color);
 }
 
+/* PRIMARY BACKGROUND COLOR, USED FOR WEBSITE DEFAULT COLR */
 .primary-bg-color {
     background-color: var(--primary-color);
 }
 
+/* BRAND NAME USED THIS CLASS */
 .text-color {
     letter-spacing: 2px;
     font-family: var(--fourth-font);
@@ -75,6 +70,7 @@
     color: var(--primary-color);
 }
 
+/* BRAND LOGO SIZE */
 .brand-logo {
     width: 50px;
     height: 100%;
@@ -85,11 +81,7 @@
     height: 100%;
 }
 
-/* .carousel-darken-mode {
-    background-blend-mode: darken, luminosity;
-    background-color: rgba(0, 0, 0, 0.5);
-} */
-
+/* CAROSEL IMAGES SIZE */
 .carosel-img-size {
     width: 100%;
     height: 85vh;
@@ -111,15 +103,20 @@
     background-color: #F4FAFD;
 }
 
+/* COMPANY IMAGES SIZE */
 .company-img-size {
     width: 100px;
     height: 100%;
 }
 
+
+/* JOIN SECTION */
 .join-bg-color {
     background-color: #289BDE;
 }
 
+
+/* FOOTER SECTION */
 .footer-bg-color {
     background-color: #161616;
 }
@@ -141,6 +138,8 @@
 .footer-title:hover {
     color: var(--primary-color);
 }
+
+/* Media query is commonly used to display the carousel slide content on any device. */
 
 @media only screen and (max-width: 576px) {
     .custom-slider-caption {
