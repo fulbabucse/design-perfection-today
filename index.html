@@ -22,6 +22,11 @@
                     <a class="navbar-brand text-color fw-semibold fs-4" href="index.html"><img class="brand-logo"
                             src="./images/design-perfection-today.png" alt=""> Design Perfection
                         Today</a>
+                    <div
+                        class="text-center d-none d-sm-block d-sm-none d-md-block d-lg-none d-xl-block d-lg-none d-xl-block d-xl-none register-button">
+                        <a href="#" class="btn primary-btn text-center px-4 py-2 mb-2 text-decoration-none">Register
+                        </a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -50,6 +55,10 @@
                         </ul>
                     </div>
                 </div>
+                <div class="text-center d-sm-none .d-md-block d-md-none d-lg-block register-button">
+                    <a href="#" class="btn primary-btn text-center px-4 py-2 mb-2 text-decoration-none">Register
+                    </a>
+                </div>
             </nav>
         </header>
     </section>
@@ -67,9 +76,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/cover/cover-1.png" class="carosel-img-size" alt="...">
-                    <div class="carousel-caption slider-caption d-md-block mb-5">
-                        <h1 class="carosel-title">Get Started Digital Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
+                    <div class="carousel-caption slider-caption custom-slider-caption d-md-block mb-5">
+                        <h1 class="carosel-title custome-carosel-title">Get Started Digital Learning</h1>
+                        <p class="text-white custome-carosel-sub-title">It is a long established fact that a reader will
+                            be distracted by the
                             readable content of a page when looking at its layout.</p>
                         <a href="#" class="btn primary-btn text-center px-4 py-2 mb-2 text-decoration-none">Get Started
                         </a>
@@ -77,9 +87,10 @@
                 </div>
                 <div class="carousel-item">
                     <img src="images/cover/cover-2.jpg" class="carosel-img-size" alt="...">
-                    <div class="carousel-caption slider-caption d-md-block mb-5">
-                        <h1 class="carosel-title">Get Started Digital Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
+                    <div class="carousel-caption slider-caption custom-slider-caption d-md-block mb-5">
+                        <h1 class="carosel-title custome-carosel-title">Get Started Digital Learning</h1>
+                        <p class="text-white custome-carosel-sub-title">It is a long established fact that a reader will
+                            be distracted by the
                             readable content of a page when looking at its layout.</p>
                         <a href="#" class="btn primary-btn text-center px-4 py-2 mb-2 text-decoration-none">Get Started
                         </a>
@@ -87,9 +98,10 @@
                 </div>
                 <div class="carousel-item">
                     <img src="images/cover/cover-3.jpg" class="carosel-img-size" alt="...">
-                    <div class="carousel-caption slider-caption d-md-block mb-5">
-                        <h1 class="carosel-title">Get Started Digital Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
+                    <div class="carousel-caption slider-caption custom-slider-caption d-md-block mb-5">
+                        <h1 class="carosel-title custome-carosel-title">Get Started Digital Learning</h1>
+                        <p class="text-white custome-carosel-sub-title">It is a long established fact that a reader will
+                            be distracted by the
                             readable content of a page when looking at its layout.</p>
                         <a href="#" class="btn primary-btn text-center px-4 py-2 mb-2 text-decoration-none">Get Started
                         </a>
@@ -257,7 +269,8 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title text-center" id="exampleModalLabel">Register Now</h5>
+                                    <h5 class="modal-title text-primary fw-semibold" id="exampleModalLabel">Register Now
+                                    </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -274,9 +287,9 @@
                                             <label for="floatingInput">Email address</label>
                                         </div>
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here"
-                                                id="floatingTextarea"></textarea>
-                                            <label for="floatingTextarea">Drop your message</label>
+                                            <input type="password" class="form-control" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
                                         </div>
                                         <div class="my-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -285,14 +298,15 @@
                                                 Conditions.</label>
                                         </div>
                                         <button class="border-0">
-                                            <a href="#" class="submit-btn">Submit <i class="fas fa-arrow-right"></i></a>
+                                            <a href="#"
+                                                class="submit-btn bg-primary text-white px-4 py-2 text-decoration-none rounded-3">Submit
+                                                <i class="fas fa-arrow-right"></i></a>
                                         </button>
                                     </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
